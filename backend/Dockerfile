@@ -30,5 +30,4 @@ COPY tts_service.py /app/tts_service.py
 RUN python manage.py collectstatic --noinput
 
 EXPOSE 10000
-
-CMD ["sh", "-c", "gunicorn config.wsgi:application --bind 0.0.0.0:${PORT:-10000}"]
+CMD ["sh", "-c", "python manage.py migrate && gunicorn config.wsgi:application --bind 0.0.0.0:${PORT:-10000}"]
