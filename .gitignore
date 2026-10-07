@@ -1,0 +1,85 @@
+# Python environments
+.venv/
+tts_env/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+**/__pycache__/
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+
+# Environment variables
+.env
+*.env
+
+# Local databases
+db.sqlite3
+backend/db.sqlite3
+
+# Generated audio
+*.mp3
+*.wav
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python test/cache files
+.pytest_cache/
+.coverage
+
+# Project backup/model files
+backend/*backup*.pkl
+backend/*WORKING_BACKUP*.pkl
+
+# Test/sample report
+backend/blood_report.jpeg
+
+# Old backup files
+backend/*.backup*
+backend/*_backup*
+backend/*backup*
+backend/*WORKING_BACKUP*
+
+# Temporary development scripts
+backend/apply_general_report_fix.py
+backend/evaluate_*.py
+backend/find_demo_cases.py
+backend/integrate_general_model_api.py
+backend/patch_symptom_interpreter.py
+backend/retrain_general_model_canonical.py
+backend/switch_to_profile_matcher.py
+backend/train_model*.py
+backend/test_*.py
+backend/requirements.backup.txt
+backend/users/symptom_interpreter.py.backup*
+backend/users/symptom_normalizer_before_ai_upgrade.py
+backend/users/views_backup*.py
+backend/users/views_before_*.py
+backend/users/views_today_backup.py
+
+# Test/sample images and old presentation images
+backend/blood_report.jpeg
+backend/1 TO 10 QUESTIONS.png
+backend/BARRIER FUCTION.png
+backend/FULL IOT 10 QUESTIONS*.png
+backend/IOT METHODOLOGY.png
+backend/PC COORDINATION AND SYNCRONISATION ANSWER.png
+backend/sd.png
+backend/system design*.png
+backend/sytem implementation.png
+
+# Additional old views backups
+backend/users/views.py.backup_*
