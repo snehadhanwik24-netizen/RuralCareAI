@@ -2046,7 +2046,7 @@ const findNearbyHospitals = () => {
                     <div className="rc-empty-result">
 
                         <div className="rc-empty-icon">
-                            ðŸ§
+                            ï¿½
                         </div>
 
                         <h5>
